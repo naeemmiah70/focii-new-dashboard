@@ -1,0 +1,21 @@
+.sideGraph{}
+
+
+@media only screen and (max-width: 900px)  {
+    .sideGraph{
+        width:30% !important;
+    }
+    .middleData{
+        width: 40% !important;
+    }
+}
+
+
+@media only screen and (min-width: 1000px)   {
+    .sideGraph{
+        width:35% !important;
+    }
+    .middleData{
+        width: 30% !important;
+    }
+}

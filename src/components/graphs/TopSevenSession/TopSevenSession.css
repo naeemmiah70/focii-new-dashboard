@@ -1,0 +1,9 @@
+.percentage-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border: 1px solid #141415;
+    padding: 4px 8px;
+    width: 33%;
+}
