@@ -8,8 +8,8 @@ import TopSevenSession from "./components/graphs/TopSevenSession/TopSevenSession
 import EnagementCorrelations from "./components/graphs/EngagementCorrelations/EnagementCorrelations";
 import LastSevenSession from "./components/graphs/LastSevenSession/LastSevenSession";
 import LearnerHappiness from "./components/graphs/LearnerHappiness/LearnerHappiness";
-import AttensionSpan from "./components/storybookComponents/AttensionSpan/AttensionSpan";
 import EngagementAndAttension from "./components/graphs/EnagagementAndAttension/EngagementAndAttension";
+import Dashboard from "./components/graphs/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -49,6 +49,9 @@ function App() {
           <div className="col-lg-10 col-md-8 col-12 py-3">
             <EngagementAndAttension></EngagementAndAttension>
           </div>
+        </div>
+        <div>
+          <Dashboard></Dashboard>
         </div>
       </div>
     </section>

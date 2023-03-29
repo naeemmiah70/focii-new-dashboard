@@ -16,7 +16,7 @@ const EngagementAndAttension = () => {
             <Tooltip label="Tooltip text" />
           </div>
         </div>
-        <div style={{ width: "100%", display: "flex" }}>
+        <div style={{ width: "100%", display: "flex", justifyContent:"space-between" }}>
           <div className="sideGraph">
             <AttensionSpan
               value={[18, 20, 15, 15, 10]}

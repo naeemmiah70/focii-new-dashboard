@@ -23,7 +23,7 @@ const AttensionSpan = ({
         </p>
       </div>
       {value.map((data) => (
-        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent:"end", gap: "10px" }}>
           <div
             style={{
               display: "flex",

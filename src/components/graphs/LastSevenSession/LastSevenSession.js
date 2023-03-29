@@ -11,15 +11,14 @@ const LastSevenSession = () => {
     "Study3",
     "Study4",
     "Study5",
-    "Study6",
-    "Study7",
+   
   ];
-  const learnArray = [20, 30, 20, 25, 18, 22, 11];
+  const learnArray = [20, 30, 20, 25, 18];
   return (
     <>
       <Card width={"100%"} height="100%">
         <div style={{ display: "flex", marginBottom: "10px" }}>
-          <Heading label="Engagement For Last 7 Sessions"></Heading>
+          <Heading label="Engagement For Last 5 Sessions"></Heading>
           <div style={{ marginLeft: "10px" }}>
             <Tooltip label="Tooltip text" />
           </div>

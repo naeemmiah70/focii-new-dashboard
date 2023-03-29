@@ -122,11 +122,11 @@ export const options = {
     legend: {
       labels: {
         boxWidth: 10,
-        fontColor: "#fff",
-        padding: 10,
+        color: "rgba(255, 255, 255, 0.774)",
+        padding: 20,
         font: {
-          size: 16,
-          weight: "bold",
+          size: 14,
+          weight: "600",
           color: "#fff",
           paddingLeft: 10,
         },

@@ -59,10 +59,9 @@ const TopSeven = ({
     "Study3",
     "Study4",
     "Study5",
-    "Study6",
-    "Study7",
+    
   ],
-  quater = [25, 20, 28, 23, 35, 32, 24],
+  quater = [25, 20, 28, 23, 35],
   barColors = [
     "#6200EE",
     "#6200EE",
@@ -87,8 +86,7 @@ const TopSeven = ({
             {
               data: quater,
               backgroundColor: barColors,
-              borderRadius: 20,
-              barThickness: 20,
+            
             },
           ],
         }}

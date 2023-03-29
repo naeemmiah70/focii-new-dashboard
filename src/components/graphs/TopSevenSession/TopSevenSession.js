@@ -12,8 +12,6 @@ const SevenSession = () => {
     "Study3",
     "Study4",
     "Study5",
-    "Study6",
-    "Study7",
   ];
   const barColors = [
     "#1974CE",
@@ -28,7 +26,7 @@ const SevenSession = () => {
     <>
       <Card width="100%" height="100%">
         <div style={{ display: "flex", marginBottom: "10px" }}>
-          <Heading label="Engagement For Top 7 Sessions"></Heading>
+          <Heading label="Engagement For Top 5 Sessions"></Heading>
           <div style={{ marginLeft: "10px" }}>
             <Tooltip label="Tooltip text" />
           </div>

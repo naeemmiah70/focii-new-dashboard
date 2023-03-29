@@ -9,7 +9,7 @@ const Tooltip = ({ label, color, backgroundColor }) => {
     backgroundColor: backgroundColor,
   };
   return (
-    <div class="tooltip">
+    <div class="ToolTip">
       <img src={Question} alt="" />
       <span style={style} class="tooltiptext">
         {label}
