@@ -69,7 +69,7 @@ const Dashboard = () => {
     },
   ];
 
-  const [type, setType] = useState("horizontal");
+  const [type, setType] = useState("squar");
 
   return (
     <div className="">
@@ -139,28 +139,64 @@ const Dashboard = () => {
             type === "verticle" ? "verticleDiv" : "horizontal-flex-div"
           }`}
         >
-          <div className="enagement-room-div">
+          <div
+            className={`enagement-room-div ${
+              type === "verticle" && "engagement-width"
+            }`}
+          >
             <Heading
               label="Enagement"
               color="#DADEE3"
               fontSize="16px"
             ></Heading>
-            <div style={{ marginTop: "7px" }}>
-              <Heading label="40%" color="#1974CE" fontSize="22px"></Heading>
+            <div
+              style={{
+                marginTop: "7px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "1px",
+              }}
+            >
+              <Heading label="40" color="#1974CE" fontSize="24px"></Heading>
+              <div style={{ marginTop: "3px" }}>
+                <Heading
+                  label="%"
+                  color="#1974CE"
+                  fontSize="16px"
+                  fontWeight={400}
+                ></Heading>
+              </div>
             </div>
           </div>
           <div
             className={`enagement-room-div ${
-              type !== "veticle" && "verticle-margin-top"
-            } `}
+              type === "verticle" && "verticle-margin-top"
+            } ${type === "verticle" && "engagement-width"} `}
           >
             <Heading
               label="Attendance"
               color="#DADEE3"
               fontSize="16px"
             ></Heading>
-            <div style={{ marginTop: "7px" }}>
-              <Heading label="70%" color="#1974CE" fontSize="22px"></Heading>
+            <div
+              style={{
+                marginTop: "7px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "1px",
+              }}
+            >
+              <Heading label="70" color="#1974CE" fontSize="24px"></Heading>
+              <div style={{ marginTop: "4px" }}>
+                <Heading
+                  label="%"
+                  color="#1974CE"
+                  fontSize="16px"
+                  fontWeight={400}
+                ></Heading>
+              </div>
             </div>
           </div>
         </div>

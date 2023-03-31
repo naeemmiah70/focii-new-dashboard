@@ -2,6 +2,7 @@ import React from "react";
 import Modal from "react-modal";
 import Heading from "../Heading/Heading";
 import close from "../../../resources/icons/cross.png";
+import application from "../../../resources/icons/application.png";
 import Eye from "../../../resources/icons/Eye.png";
 import topArrow from "../../../resources/icons/top-arrow.png";
 import PropTypes from "prop-types";
@@ -78,8 +79,9 @@ const ReactModal = ({
                   </p>
                 </div>
                 <div>
+                  <img src={application} alt="" />
                   <img
-                    style={{ marginRight: "10px", cursor: "pointer" }}
+                    style={{ marginRight: "10px",  marginLeft: "10px", cursor: "pointer" }}
                     src={Eye}
                     alt=""
                   />
