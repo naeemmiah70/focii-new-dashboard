@@ -23,6 +23,7 @@ const TotalVsEngaged = () => {
           alignItems: "center",
         }}
       >
+        
         <div
           style={{
             width: "60%",

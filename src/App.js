@@ -10,6 +10,8 @@ import LastSevenSession from "./components/graphs/LastSevenSession/LastSevenSess
 import LearnerHappiness from "./components/graphs/LearnerHappiness/LearnerHappiness";
 import EngagementAndAttension from "./components/graphs/EnagagementAndAttension/EngagementAndAttension";
 import Dashboard from "./components/graphs/Dashboard/Dashboard";
+import PieChart from "./components/storybookComponents/PieChart/PieChart";
+import SingleStudy from "./components/graphs/SingleStudy/SingleStudy";
 
 function App() {
   return (
@@ -52,6 +54,9 @@ function App() {
         </div>
         <div>
           <Dashboard></Dashboard>
+        </div>
+        <div>
+          <SingleStudy></SingleStudy>
         </div>
       </div>
     </section>

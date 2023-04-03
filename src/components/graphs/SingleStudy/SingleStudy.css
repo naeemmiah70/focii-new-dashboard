@@ -1,0 +1,19 @@
+.select-dropdown {
+    border-radius: 4px;
+    border: 0;
+    margin-left: 10px;
+}
+
+.select-dropdown select {
+    border: 0 !important;
+
+}
+
+.dropdown-button {
+    border: 0;
+    background: none;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 5px 10px;
+    border-radius: 5px !important;
+}
